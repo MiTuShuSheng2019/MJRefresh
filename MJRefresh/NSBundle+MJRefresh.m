@@ -97,6 +97,10 @@ static NSBundle *mj_systemI18nBundle = nil;
         language = @"ru";
     } else if ([language hasPrefix:@"uk"]) {
         language = @"uk";
+    } else if ([language hasPrefix:@"ar"]) {
+        language = @"ar";
+    } else if ([language hasPrefix:@"tr"]) {
+        language = @"tr";
     } else {
         language = @"en";
     }
